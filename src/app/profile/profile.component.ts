@@ -14,6 +14,7 @@ export class ProfileComponent implements OnInit {
     langs: Lang[]
     maxWidthSmallScreen = 999
     langModalOpened = false
+    flipped = false
 
     constructor(
         private lang: LangService,
@@ -48,23 +49,23 @@ export class ProfileComponent implements OnInit {
 
         if ($modalContent.hasClass('displayed')) {
             /*
-                * Center modal in container
-                */
+             * Center modal in container
+             */
             $modalContent.css({
                 left: -Math.abs($modal.width() - $modalContent.width()) / 2,
                 top: $modal.height() + 10
             })
 
             /*
-                * Center caret in modal content
-                */
+             * Center caret in modal content
+             */
             $caret.css({
                 left: $modalContent.width() / 2 - 8.5
             })
 
             /*
-                * Blur first page
-                */
+             * Blur first page
+             */
             this.toggleFirstPageBlur()
 
             /*
@@ -107,7 +108,8 @@ export class ProfileComponent implements OnInit {
             $(scrollTopProxy).animate(
                 { value: target },
                 {
-                    duration, step: stepValue => {
+                    duration,
+                    step: stepValue => {
                         const rounded = Math.round(stepValue)
                         $window.scrollTop(rounded)
                     }
@@ -115,4 +117,7 @@ export class ProfileComponent implements OnInit {
         }
     }
 
+    toggleFlip() {
+        this.flipped = !this.flipped
+    }
 }

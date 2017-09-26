@@ -1,6 +1,6 @@
 {
     "profile": {
-        "webDeveloper": "Software Engineer"
+        "webDeveloper": "Software engineer"
     },
     "firstPage": {
         "showResume": "Show resume"
@@ -14,8 +14,18 @@
     },
     "workExperiences": {
         "title": "Working experiences",
+        "reactEngineer": {
+            "title": "React Software Engineer",
+            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>.",
+            "technicalEnvironment": "<strong>Technical environment:</strong>"
+        },
+        "javascriptEngineer": {
+            "title": "JavaScript Software Engineer",
+            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank'>mycfmportal.com</a>.",
+            "technicalEnvironment": "<strong>Technical environment:</strong>"
+        },
         "angular2Developer": {
-            "title": "Angular 2+ developer",
+            "title": "Angular developer",
             "textPart1": "Development of a responsive Facebook application, allowing users to compute their psychological relationships with friends following their answers to a quiz.",
             "textPart2": "Use of the typescript language, with the framework 2 Angular and Facebook libraries, Firebase, Hammerjs, Semantic-UI."
         },

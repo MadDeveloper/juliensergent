@@ -3,7 +3,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-size: inherit;
 }
 
 *,
@@ -20,6 +20,7 @@ html, body {
     color: $main-color;
     // overflow-x: hidden;
     line-height: 1.64;
+    font-size: $default-font-size;
 }
 
 app-root,

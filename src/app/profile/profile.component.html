@@ -15,7 +15,7 @@
           </div>
       </div>
         <section id="image-profile-container">
-            <div id="card-image-profile">
+            <div id="card-image-profile" class="clickable" [ngClass]="{ flipped: flipped }" (click)="toggleFlip()">
                 <figure class="front"><img alt="" class="image profile rounded main-image" src="/assets/images/julien-sergent.jpg"></figure>
                 <figure class="back"><img alt="" class="image profile rounded main-image" src="/assets/images/js.jpg"></figure>
             </div>
