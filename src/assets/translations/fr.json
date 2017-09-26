@@ -1,0 +1,65 @@
+{
+    "profile": {
+        "webDeveloper": "Ingénieur Logiciels"
+    },
+    "firstPage": {
+        "showResume": "Lire le CV"
+    },
+    "about": {
+        "title": "À propos",
+        "text": "Développeur passionné depuis plus de dix ans, je m’investis beaucoup dans mon travail en accordant autant d’importance au design de mes interfaces qu’à la clarté de mon code. J’apprécie également le travail en équipe, enrichissant tant sur le plan technique que social."
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "workExperiences": {
+        "title": "Expériences professionnelles",
+        "angular2Developer": {
+            "title": "Développeur Angular 2+",
+            "textPart1": "Développement d’une application Facebook responsive, permettant aux utilisateurs de pouvoir calculer leur corrélation psychologique avec des amis suivant leurs réponses aux questions d’une quizz.",
+            "textPart2": "Utilisation du langage Typescript, avec le framework Angular 2 et les librairies Facebook, Firebase, Hammerjs, Semantic-UI."
+        },
+        "phpDeveloper1": {
+            "title": "Développeur PHP",
+            "textPart1": "Création d’une startup ayant pour projet la réalisation d’une plateforme web et mobile permettant une gestion plus moderne des cours et révisions.",
+            "textPart2": "Utilisation du langage PHP et Javascript."
+        },
+        "wordpressDeveloper": {
+            "title": "Développeur Wordpress",
+            "textPart1": "Réalisation d’un site sous Wordpress pour un client.",
+            "textPart2": "Développement de modules Wordpress spécifiques pour convenir aux besoins."
+        },
+        "phpDeveloper2": {
+            "title": "Développeur PHP",
+            "textPart1": "Conception et développement d’une plateforme web interne permettant de faciliter la gestion des candidatures.",
+            "textPart2": "Réalisé avec le langage PHP, Javascript et la technologie Ajax."
+        }
+    },
+    "educations": {
+        "title": "Études",
+        "master": {
+            "school": "IPI, Blagnac",
+            "title": "Master Chef de projet & ingénieur logiciels",
+            "text": "En cours d'obtention du titre BAC+5 Master Chef de projet et ingénieur logiciels."
+        },
+        "licence": {
+            "school": "SUPINFO International University, Toulouse",
+            "title": "Licence développement informatique",
+            "text": "Obtention du titre BAC+3 Bachelor of Science en développement logiciels et réseaux informatique."
+        },
+        "bac": {
+            "school": "Lycée Clément Marot, Cahors",
+            "title": "Baccalauréat scientifique",
+            "text": "Obtention du baccalauréat scientifique avec mention."
+        }
+    },
+    "skills": {
+        "title": "Compétences"
+    },
+    "tools": {
+        "title": "Outils"
+    },
+    "languages": {
+        "title": "Langues"
+    }
+}

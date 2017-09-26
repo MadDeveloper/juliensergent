@@ -1,0 +1,207 @@
+@import 'variables';
+
+/*
+ * Paragraphs
+ */
+p {
+    &.not-margined {
+        margin: 0;
+    }
+
+    &.reduced-margin {
+        margin: 5px 0;
+    }
+}
+
+/*
+ * Links
+ */
+a {
+    text-decoration: none;
+}
+
+a.link {
+    &.default {
+        color: $main-color;
+    }
+
+    &.inverted {
+        color: $background-color;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+/*
+ * Transforms
+ */
+.uppercased {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.clickable:hover {
+    cursor: pointer !important;
+}
+
+/*
+ * Headers
+ */
+h1.title {
+    font-size: $h1-title-font-size;
+}
+h1.subtitle {
+    font-size: $h1-subtitle-font-size;
+}
+
+h2.title {
+    font-size: $h2-title-font-size;
+}
+h2.subtitle {
+    font-size: $h2-subtitle-font-size;
+}
+
+h3.title {
+    font-size: $h3-title-font-size;
+}
+h3.subtitle {
+    font-size: $h3-subtitle-font-size;
+}
+
+.title:hover {
+    cursor: default;
+}
+
+/*
+ * Font sizes
+ */
+p,
+span,
+a {
+    font-size: $default-font-size;
+}
+
+/*
+ * Contents
+ */
+.content {
+    padding: 20px;
+
+    &.horizontal {
+        padding: 0 20px;
+    }
+
+    &.vertical {
+        padding: 20px 0;
+    }
+
+    &.small {
+        padding: 5px;
+
+        &.horizontal {
+            padding: 0 7px;
+        }
+
+        &.vertical {
+            padding: 7px 0;
+        }
+    }
+}
+
+section {
+    .title {
+        display: flex;
+        align-items: center;
+
+        &.margined {
+            margin-right: 20px;
+        }
+    }
+
+    .section-item {
+        padding-top: 20px;
+    }
+
+    article {
+        display: block;
+        padding: 0 0 50px 68px;
+
+        @media screen and(max-width: $max-width-small-screen) {
+            padding-left: 0;
+        }
+
+        &.default {
+            padding-left: 0;
+        }
+
+        .event {
+            &.title {
+                margin: 0;
+                }
+
+            &.content {
+                padding: 0;
+            }
+        }
+
+        .metadata {
+            margin-top: 0;
+
+            .location,
+            .date {
+                color: $light-grey-color;
+            }
+
+            .location {
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+/*
+ * Colors
+ */
+.color {
+    &.clouds {
+        color: $background-color;
+    }
+
+    &.default {
+        color: $main-color;
+    }
+}
+
+.bgcolor {
+    &.clouds {
+        background-color: $clouds-color;
+    }
+
+    &.default {
+        background-color: $main-color;
+
+        &.light {
+            background-color: $light-main-color;
+        }
+    }
+}
+
+/*
+ * Margins
+ */
+.margin {
+    &.no-vertical {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

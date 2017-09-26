@@ -1,0 +1,39 @@
+@import 'variables';
+
+.list {
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+    list-style-type: none;
+    font-size: $default-font-size;
+
+    &.modal {
+        padding-right: 0;
+    }
+
+    &.rounded {
+        li {
+            border-radius: 4px;
+        }
+    }
+
+    li {
+        display: block;
+        padding: 3px 5px;
+
+        &:hover {
+            cursor: default;
+            background-color: $clouds-color;
+        }
+    }
+
+    &.large {
+        li {
+            padding: 5px 20px;
+        }
+    }
+
+    &.inverted li:hover {
+        background-color: $background-color;
+    }
+}

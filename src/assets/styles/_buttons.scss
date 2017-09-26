@@ -1,0 +1,29 @@
+@import 'variables';
+
+.button {
+    border-radius: 50px;
+    border: 2px solid transparent;
+    padding: 8px 20px;
+    font-size: $default-font-size;
+    transition-property: all;
+    transition-duration: 300ms;
+
+    &.inverted {
+        background-color: transparent;
+        border: 2px solid $background-color;
+        color: $background-color;
+
+        &:hover {
+            background-color: $background-color;
+            color: $main-color;
+        }
+    }
+
+    &.big {
+        font-size: $h3-title-font-size;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

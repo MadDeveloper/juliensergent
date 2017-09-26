@@ -1,0 +1,44 @@
+.image {
+    &.rounded {
+        border-radius: 50%;
+    }
+
+    &.profile {
+        width: 150px;
+        height: 150px;
+    }
+
+    &.bordered {
+        border: 1px solid $background-color;
+
+        &.large {
+            border: 5px solid $background-color;
+        }
+
+        &.light {
+            border: 1px solid $light-main-color;
+
+            &.large {
+                border: 5px solid $light-main-color;
+            }
+        }
+
+        &.clouds {
+            border: 1px solid $background-color;
+
+            &.large {
+                border: 5px solid $background-color;
+            }
+        }
+    }
+
+    &.medium {
+        width: 100px;
+        height: 100px;
+    }
+
+    &.in-list {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+@import 'assets/font-awesome/css/font-awesome.min.css';
+@import 'assets/styles/index';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    height: 100%;
+    color: $main-color;
+    // overflow-x: hidden;
+    line-height: 1.64;
+}
+
+app-root,
+app-home {
+    display: block;
+    height: 100%;
+}
