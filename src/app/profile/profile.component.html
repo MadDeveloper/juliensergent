@@ -1,27 +1,35 @@
 <section class="height width max" style="overflow-y: hidden;">
     <section id="first-page" class="display flex direction column all centered height width max">
         <div id="lang-container" class="display flex justified width max position absolute origin">
-          <div class="lang modal">
-              <a (click)="toggleLangModal( $event )" class="link inverted">{{ langUsed.name }} <i class="fa fa-angle-down"></i></a>
-              <div class="default content">
-                  <i class="fa fa-caret-up caret" aria-hidden="true"></i>
-                  <ul class="list large modal">
-                      <li *ngFor="let lang of langs" (click)="changeLang( lang.tag, $event )" class="clickable">
-                          <span>{{ lang.name }}</span>
-                          <img class="float right image rounded in-list" src="{{ lang.flag }}" alt="">
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </div>
+            <div class="lang modal">
+                <a (click)="toggleLangModal( $event )" class="link inverted">{{ langUsed.name }}
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="default content">
+                    <i class="fa fa-caret-up caret" aria-hidden="true"></i>
+                    <ul class="list large modal">
+                        <li *ngFor="let lang of langs" (click)="changeLang( lang.tag, $event )" class="clickable">
+                            <span>{{ lang.name }}</span>
+                            <img class="float right image rounded in-list" src="{{ lang.flag }}" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <section id="image-profile-container">
             <div id="card-image-profile" class="clickable" [ngClass]="{ flipped: flipped }" (click)="toggleFlip()">
-                <figure class="front"><img alt="" class="image profile rounded main-image" src="/assets/images/julien-sergent.jpg"></figure>
-                <figure class="back"><img alt="" class="image profile rounded main-image" src="/assets/images/js.jpg"></figure>
+                <figure class="front">
+                    <img alt="" class="image profile rounded main-image" src="/assets/images/julien-sergent.jpg">
+                </figure>
+                <figure class="back">
+                    <img alt="" class="image profile rounded main-image" src="/assets/images/js.jpg">
+                </figure>
             </div>
         </section>
-        <h1 class="title" id="main-title">Julien Sergent</h1>
-        <h1 class="title color clouds" id="main-subtitle">{{ 'profile.webDeveloper' | translate }}</h1>
+        <h1 class="title" id="main-title">MadDeveloper</h1>
+        <h2 class="title color clouds text-centered" id="main-subtitle">
+            <span [innerHTML]="'profile.webDeveloper' | translate"></span>
+        </h2>
         <button (click)="gotoProfile()" class="button inverted">{{ 'firstPage.showResume' | translate }}</button>
     </section>
 </section>

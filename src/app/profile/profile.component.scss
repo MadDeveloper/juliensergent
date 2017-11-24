@@ -85,9 +85,9 @@
         }
     }
 
-    h1#main-subtitle {
-        font-size: 30px;
-        margin-top: 15px;
+    h2#main-subtitle {
+        font-size: 25px;
+        margin: 30px 0;
         font-weight: 100;
 
         @media screen and(max-width: $max-width-small-screen) {

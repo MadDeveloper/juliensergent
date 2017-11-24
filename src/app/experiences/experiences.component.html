@@ -1,20 +1,54 @@
 <section class="section-item">
     <div class="title">
-        <span class="badge title h2 margined"><i class="fa fa-briefcase"></i></span>
+        <span class="badge title h2 margined">
+            <i class="fa fa-briefcase"></i>
+        </span>
         <h1 class="title">{{ 'workExperiences.title' | translate }}</h1>
     </div>
 
     <article>
+        <h2 class="title event">{{ 'workExperiences.fullStackWebDeveloper.title' | translate }}</h2>
+        <p class="metadata">
+            <span class="location">
+                <i class="fa fa-building"></i>
+                Liberty Rider
+            </span>
+            <span class="date">
+                <i class="fa fa-calendar"></i>
+                2 Octobre 2017 - Today
+            </span>
+        </p>
+        <p class="event content">
+            <span [innerHTML]="'workExperiences.fullStackWebDeveloper.textPart1' | translate"></span>
+            <br>
+            <br>
+            <span [innerHTML]="'workExperiences.fullStackWebDeveloper.technicalEnvironment' | translate"></span>
+        </p>
+        <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>GraphQL</li>
+            <li>Node</li>
+            <li>SASS</li>
+            <li>Webpack</li>
+            <li>Git</li>
+            <li>Amazon Web Services (AWS)</li>
+            <li>CircleCI</li>
+        </ul>
+    </article>
+
+    <article>
         <h2 class="title event">{{ 'workExperiences.reactEngineer.title' | translate }}</h2>
         <p class="metadata">
-                <span class="location">
-                    <i class="fa fa-building"></i>
-                    Capgemini
-                </span>
-                <span class="date">
-                    <i class="fa fa-calendar"></i>
-                    3 Mars 2017 - 1 Septembre 2017
-                </span>
+            <span class="location">
+                <i class="fa fa-building"></i>
+                Capgemini
+            </span>
+            <span class="date">
+                <i class="fa fa-calendar"></i>
+                3 Mars 2017 - 1 Septembre 2017
+            </span>
         </p>
         <p class="event content">
             <span [innerHTML]="'workExperiences.reactEngineer.textPart1' | translate"></span>
@@ -63,44 +97,56 @@
     <article>
         <h2 class="title event">{{ 'workExperiences.angular2Developer.title' | translate }}</h2>
         <p class="metadata">
-            <span class="location"><i class="fa fa-building"></i> Twinipix</span><span class="date"><i class="fa fa-calendar"></i> 18 Juillet 2016 - 18 Octobre 2016</span>
+            <span class="location">
+                <i class="fa fa-building"></i> Twinipix</span>
+            <span class="date">
+                <i class="fa fa-calendar"></i> 18 Juillet 2016 - 18 Octobre 2016</span>
         </p>
         <p class="event content">
-            {{ 'workExperiences.angular2Developer.textPart1' | translate }}<br> {{ 'workExperiences.angular2Developer.textPart2'
-            | translate }}
+            {{ 'workExperiences.angular2Developer.textPart1' | translate }}
+            <br> {{ 'workExperiences.angular2Developer.textPart2' | translate }}
         </p>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.phpDeveloper1.title' | translate }}</h2>
         <p class="metadata">
-            <span class="location"><i class="fa fa-building"></i> Prep'App</span><span class="date"><i class="fa fa-calendar"></i> 01 Novembre 2014 - 28 Juin 2016</span>
+            <span class="location">
+                <i class="fa fa-building"></i> Prep'App</span>
+            <span class="date">
+                <i class="fa fa-calendar"></i> 01 Novembre 2014 - 28 Juin 2016</span>
         </p>
         <p class="event content">
-            {{ 'workExperiences.phpDeveloper1.textPart1' | translate }}<br> {{ 'workExperiences.phpDeveloper1.textPart2'
-            | translate }}
+            {{ 'workExperiences.phpDeveloper1.textPart1' | translate }}
+            <br> {{ 'workExperiences.phpDeveloper1.textPart2' | translate }}
         </p>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.wordpressDeveloper.title' | translate }}</h2>
         <p class="metadata">
-            <span class="location"><i class="fa fa-building"></i> 3WCOM</span><span class="date"><i class="fa fa-calendar"></i> 20 Septembre 2014 - 31 Octobre 2014</span>
+            <span class="location">
+                <i class="fa fa-building"></i> 3WCOM</span>
+            <span class="date">
+                <i class="fa fa-calendar"></i> 20 Septembre 2014 - 31 Octobre 2014</span>
         </p>
         <p class="event content">
-            {{ 'workExperiences.wordpressDeveloper.textPart1' | translate }}<br> {{ 'workExperiences.wordpressDeveloper.textPart2'
-            | translate }}
+            {{ 'workExperiences.wordpressDeveloper.textPart1' | translate }}
+            <br> {{ 'workExperiences.wordpressDeveloper.textPart2' | translate }}
         </p>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.phpDeveloper2.title' | translate }}</h2>
         <p class="metadata">
-            <span class="location"><i class="fa fa-building"></i> Devster</span><span class="date"><i class="fa fa-calendar"></i> 01 Novembre 2013 - 20 Décembre 2013</span>
+            <span class="location">
+                <i class="fa fa-building"></i> Devster</span>
+            <span class="date">
+                <i class="fa fa-calendar"></i> 01 Novembre 2013 - 20 Décembre 2013</span>
         </p>
         <p class="event content">
-            {{ 'workExperiences.phpDeveloper2.textPart1' | translate }}<br> {{ 'workExperiences.phpDeveloper2.textPart2'
-            | translate }}
+            {{ 'workExperiences.phpDeveloper2.textPart1' | translate }}
+            <br> {{ 'workExperiences.phpDeveloper2.textPart2' | translate }}
         </p>
     </article>
 </section>

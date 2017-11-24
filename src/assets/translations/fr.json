@@ -1,6 +1,6 @@
 {
     "profile": {
-        "webDeveloper": "Ingénieur logiciel"
+        "webDeveloper": "Software craftsman.<br>Passionate developer.<br>AI enthusiast.<br>Often sleep deprived."
     },
     "firstPage": {
         "showResume": "Lire le CV"
@@ -14,15 +14,20 @@
     },
     "workExperiences": {
         "title": "Expériences professionnelles",
+        "fullStackWebDeveloper": {
+            "title": "Développeur Web Fullstack",
+            "textPart1": "Participation au développement de la nouvelle version de détection d'accident. La construction de la version nécessite la reconstruction de nouvelles API ainsi que d'adapter certains visuels.<br>Pour plus d'informations à propos de Liberty Rider vous pouvez visiter <a href='https://liberty-rider.com' target='_blank'>liberty-rider.com</a>.",
+            "technicalEnvironment": "<strong>Environnement Technique :</strong>"
+        },
         "reactEngineer": {
-            "title": "React Software Engineer",
+            "title": "Ingénieur React",
             "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>.",
-            "technicalEnvironment": "<strong>Technical environment:</strong>"
+            "technicalEnvironment": "<strong>Environnement Technique :</strong>"
         },
         "javascriptEngineer": {
-            "title": "JavaScript Software Engineer",
+            "title": "Ingénieur JavaScript",
             "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank'>mycfmportal.com</a>.",
-            "technicalEnvironment": "<strong>Technical environment:</strong>"
+            "technicalEnvironment": "<strong>Environnement Technique :</strong>"
         },
         "angular2Developer": {
             "title": "Développeur Angular",
@@ -49,7 +54,7 @@
         "title": "Études",
         "master": {
             "school": "IPI, Blagnac",
-            "title": "Master Chef de projet & ingénieur logiciels",
+            "title": "Master chef de projet & ingénieurie logicielle",
             "text": "En cours d'obtention du titre BAC+5 Master Chef de projet et ingénieur logiciels."
         },
         "licence": {

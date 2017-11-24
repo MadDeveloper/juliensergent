@@ -2,8 +2,10 @@
     <div id="nav-container" class="width a-quarter color clouds migration w-to-max to-relative">
         <div id="user-container" class="display flex all centered direction column content migration to-none">
             <img src="/assets/images/julien-sergent.jpg" alt="" class="image profile rounded">
-            <h2 id="profil-title" class="title bold">Julien Sergent</h2>
-            <h3 class="subtitle">{{ 'profile.webDeveloper' | translate }}</h3>
+            <h2 id="profil-title" class="title bold">MadDeveloper</h2>
+            <h3 class="subtitle text-centered">
+                <span class="text-centered" [innerHTML]="'profile.webDeveloper' | translate"></span>
+            </h3>
         </div>
 
         <div class="content">
@@ -12,7 +14,7 @@
                     <span class="badge title h3 margined right"><i class="fa fa-user"></i></span>
                     <h3 id="about-me-title" class="subtitle">{{ 'about.title' | translate }}</h3>
                 </div>
-                <p class="content horizontal small reduced-margin">{{ 'about.text' | translate }}</p>
+                <!-- <p class="content horizontal small reduced-margin">{{ 'about.text' | translate }}</p> -->
                 <br>
                 <div class="display flex items-centered content horizontal small">
                     <span class="badge inverted light margined right"><i class="fa fa-github"></i></span>

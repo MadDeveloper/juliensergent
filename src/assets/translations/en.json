@@ -1,6 +1,6 @@
 {
     "profile": {
-        "webDeveloper": "Software engineer"
+        "webDeveloper": "Software craftsman.<br>Passionate developer.<br>AI enthusiast.<br>Often sleep deprived."
     },
     "firstPage": {
         "showResume": "Show resume"
@@ -14,6 +14,11 @@
     },
     "workExperiences": {
         "title": "Working experiences",
+        "fullStackWebDeveloper": {
+            "title": "Fullstack Web Developer",
+            "textPart1": "Participating to the development of the new accident detection version. The build of the version requires the reconstruction of new APIs as well as to adapt some visuals.<br>For more details about Liberty Rider, you can visit <a href='https://liberty-rider.com' target='_blank'>liberty-rider.com</a>.",
+            "technicalEnvironment": "<strong>Technical environment:</strong>"
+        },
         "reactEngineer": {
             "title": "React Software Engineer",
             "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>.",
