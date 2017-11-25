@@ -37,3 +37,18 @@
         background-color: $background-color;
     }
 }
+
+.technology-list {
+    .technology-item {
+        // display: flex;
+        // justify-content: center;
+        // flex-direction: column;
+        text-align: center;
+        margin: 1rem 0;
+
+        .technology-title {
+            font-size: $default-font-size;
+            color: $light-grey-color;
+        }
+    }
+}

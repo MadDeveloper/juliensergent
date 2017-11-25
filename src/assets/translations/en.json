@@ -1,6 +1,6 @@
 {
     "profile": {
-        "webDeveloper": "Software craftsman.<br>Passionate developer.<br>AI enthusiast.<br>Often sleep deprived."
+        "webDeveloper": "Software engineer.<br>Web artisan.<br>AI enthusiast.<br>Often sleep deprived."
     },
     "firstPage": {
         "showResume": "Show resume"
@@ -14,20 +14,18 @@
     },
     "workExperiences": {
         "title": "Working experiences",
+        "technicalEnvironment": "<strong>Technical environment</strong>",
         "fullStackWebDeveloper": {
             "title": "Fullstack Web Developer",
-            "textPart1": "Participating to the development of the new accident detection version. The build of the version requires the reconstruction of new APIs as well as to adapt some visuals.<br>For more details about Liberty Rider, you can visit <a href='https://liberty-rider.com' target='_blank'>liberty-rider.com</a>.",
-            "technicalEnvironment": "<strong>Technical environment:</strong>"
+            "textPart1": "Participating to the development of the new accident detection version. The build of the version requires the reconstruction of new APIs as well as to adapt some visuals.<br>For more details about Liberty Rider, you can visit <a href='https://liberty-rider.com' target='_blank'>liberty-rider.com</a>."
         },
         "reactEngineer": {
             "title": "React Software Engineer",
-            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>.",
-            "technicalEnvironment": "<strong>Technical environment:</strong>"
+            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>."
         },
         "javascriptEngineer": {
             "title": "JavaScript Software Engineer",
-            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank'>mycfmportal.com</a>.",
-            "technicalEnvironment": "<strong>Technical environment:</strong>"
+            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank'>mycfmportal.com</a>."
         },
         "angular2Developer": {
             "title": "Angular developer",

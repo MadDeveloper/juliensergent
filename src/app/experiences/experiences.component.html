@@ -8,11 +8,9 @@
 
     <article>
         <h2 class="title event">{{ 'workExperiences.fullStackWebDeveloper.title' | translate }}</h2>
-        <p class="metadata display flex items-centered">
-            <span class="location display inline-block">
-                <div class="display flex items-centered">
-                    <img src="/assets/images/liberty-rider.png" alt="Liberty Rider" class="image in-list mr-2"> Liberty Rider
-                </div>
+        <p class="metadata">
+            <span class="location">
+                <i class="fa fa-building"></i> Liberty Rider
             </span>
             <span class="date">
                 <i class="fa fa-calendar"></i>
@@ -21,32 +19,91 @@
         </p>
         <p class="event content">
             <span [innerHTML]="'workExperiences.fullStackWebDeveloper.textPart1' | translate"></span>
-            <br>
-            <br>
-            <span [innerHTML]="'workExperiences.fullStackWebDeveloper.technicalEnvironment' | translate"></span>
         </p>
-        <ul>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
-            <li>Angular 4+</li>
-            <li>GraphQL</li>
-            <li>REST</li>
-            <li>SASS</li>
-            <li>Webpack</li>
-            <li>Git</li>
-            <li>Amazon Web Services (AWS)</li>
-            <li>CircleCI</li>
-        </ul>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/javascript.png" alt="javascript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/typescript.png" alt="typescript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/node.png" alt="Node.js" class="image technology">
+                    <div class="technology-title">
+                        TypeScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/angular.png" alt="Angular 4+" class="image technology">
+                    <div class="technology-title">
+                        Angular
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/rxjs.png" alt="RxJS" class="image technology">
+                    <div class="technology-title">
+                        RxJS
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/graphql.png" alt="GraphQL" class="image technology">
+                    <div class="technology-title">
+                        GraphQL
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/sass.png" alt="SASS" class="image technology">
+                    <div class="technology-title">
+                        SASS
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/webpack.png" alt="WebPack" class="image technology">
+                    <div class="technology-title">
+                        WebPack
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/git.png" alt="Git" class="image technology">
+                    <div class="technology-title">
+                        Git
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/firebase.png" alt="Firebase" class="image technology">
+                    <div class="technology-title">
+                        Firebase
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/aws.png" alt="Amazon Web Services" class="image technology">
+                    <div class="technology-title">
+                        Amazon Web Services
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/circleci.png" alt="CircleCI" class="image technology">
+                    <div class="technology-title">
+                        CircleCI
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.reactEngineer.title' | translate }}</h2>
-        <p class="metadata display flex items-centered">
-            <span class="location display inline-block">
-                <div class="display flex items-centered">
-                    <img src="/assets/images/capgemini.png" alt="" class="image in-list mr-2"> Capgemini
-                </div>
+        <p class="metadata">
+            <span class="location">
+                <i class="fa fa-building"></i> Capgemini
             </span>
             <span class="date">
                 <i class="fa fa-calendar"></i>
@@ -55,30 +112,67 @@
         </p>
         <p class="event content">
             <span [innerHTML]="'workExperiences.reactEngineer.textPart1' | translate"></span>
-            <br>
-            <br>
-            <span [innerHTML]="'workExperiences.reactEngineer.technicalEnvironment' | translate"></span>
         </p>
-        <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Redux</li>
-            <li>SASS</li>
-            <li>Webpack</li>
-            <li>Git</li>
-            <li>ElasticSearch</li>
-            <li>Amazon Web Services</li>
-        </ul>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/javascript.png" alt="javascript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/react.png" alt="react" class="image technology">
+                    <div class="technology-title">
+                        React
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/node.png" alt="redux.js" class="image technology">
+                    <div class="technology-title">
+                        Redux
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/sass.png" alt="SASS" class="image technology">
+                    <div class="technology-title">
+                        SASS
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/webpack.png" alt="WebPack" class="image technology">
+                    <div class="technology-title">
+                        WebPack
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/git.png" alt="Git" class="image technology">
+                    <div class="technology-title">
+                        Git
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/elasticsearch.png" alt="Elastic Search" class="image technology">
+                    <div class="technology-title">
+                        Elastic Search
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/aws.png" alt="Amazon Web Services" class="image technology">
+                    <div class="technology-title">
+                        Amazon Web Services
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.javascriptEngineer.title' | translate }}</h2>
-        <p class="metadata display flex items-centered">
-            <span class="location display inline-block">
-                <div class="display flex items-centered">
-                    <img src="/assets/images/capgemini.png" alt="" class="image in-list mr-2"> Capgemini
-                </div>
+        <p class="metadata">
+            <span class="location">
+                <i class="fa fa-building"></i> Capgemini
             </span>
             <span class="date">
                 <i class="fa fa-calendar"></i>
@@ -87,25 +181,43 @@
         </p>
         <p class="event content">
             <span [innerHTML]="'workExperiences.javascriptEngineer.textPart1' | translate"></span>
-            <br>
-            <br>
-            <span [innerHTML]="'workExperiences.javascriptEngineer.technicalEnvironment' | translate"></span>
         </p>
-        <ul>
-            <li>JavaScript</li>
-            <li>SASS</li>
-            <li>Require.js</li>
-            <li>Git</li>
-        </ul>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/javascript.png" alt="javascript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/sass.png" alt="SASS" class="image technology">
+                    <div class="technology-title">
+                        SASS
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/requirejs.png" alt="Require.js" class="image technology">
+                    <div class="technology-title">
+                        Require.js
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/git.png" alt="Git" class="image technology">
+                    <div class="technology-title">
+                        Git
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.angular2Developer.title' | translate }}</h2>
-        <p class="metadata display flex items-centered">
-            <span class="location display inline-block">
-                <div class="display flex items-centered">
-                    <img src="/assets/images/twinipix.png" alt="" class="image in-list mr-2"> Twinipix
-                </div>
+        <p class="metadata">
+            <span class="location">
+                <i class="fa fa-building"></i> Twinipix
             </span>
             <span class="date">
                 <i class="fa fa-calendar"></i> 18 Juillet 2016 - 18 Octobre 2016
@@ -115,6 +227,47 @@
             {{ 'workExperiences.angular2Developer.textPart1' | translate }}
             <br> {{ 'workExperiences.angular2Developer.textPart2' | translate }}
         </p>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/typescript.png" alt="TypeScript" class="image technology">
+                    <div class="technology-title">
+                        TypeScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/angular.png" alt="Angular" class="image technology">
+                    <div class="technology-title">
+                        Angular
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/firebase.png" alt="Firebase" class="image technology">
+                    <div class="technology-title">
+                        Firebase
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/facebook.png" alt="Facebook" class="image technology">
+                    <div class="technology-title">
+                        Facebook
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/semantic-ui.png" alt="Semantic UI" class="image technology">
+                    <div class="technology-title">
+                        Semantic UI
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/git.png" alt="Git" class="image technology">
+                    <div class="technology-title">
+                        Git
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
@@ -129,13 +282,37 @@
             {{ 'workExperiences.phpDeveloper1.textPart1' | translate }}
             <br> {{ 'workExperiences.phpDeveloper1.textPart2' | translate }}
         </p>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/javascript.png" alt="JavaScript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/php.png" alt="PHP" class="image technology">
+                    <div class="technology-title">
+                        PHP
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/git.png" alt="Git" class="image technology">
+                    <div class="technology-title">
+                        Git
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
         <h2 class="title event">{{ 'workExperiences.wordpressDeveloper.title' | translate }}</h2>
         <p class="metadata">
             <span class="location">
-                <i class="fa fa-building"></i> 3WCOM</span>
+                <i class="fa fa-building"></i> 3WCOM
+            </span>
             <span class="date">
                 <i class="fa fa-calendar"></i> 20 Septembre 2014 - 31 Octobre 2014</span>
         </p>
@@ -143,6 +320,23 @@
             {{ 'workExperiences.wordpressDeveloper.textPart1' | translate }}
             <br> {{ 'workExperiences.wordpressDeveloper.textPart2' | translate }}
         </p>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/wordpress.png" alt="Wordpress" class="image technology">
+                    <div class="technology-title">
+                        Wordpress
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/php.png" alt="PHP" class="image technology">
+                    <div class="technology-title">
+                        PHP
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article>
@@ -157,5 +351,22 @@
             {{ 'workExperiences.phpDeveloper2.textPart1' | translate }}
             <br> {{ 'workExperiences.phpDeveloper2.textPart2' | translate }}
         </p>
+        <p [innerHTML]="'workExperiences.technicalEnvironment' | translate"></p>
+        <div class="container-fluid">
+            <div class="row technology-list">
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/javascript.png" alt="JavaScript" class="image technology">
+                    <div class="technology-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6 technology-item">
+                    <img src="/assets/images/technologies/php.png" alt="PHP" class="image technology">
+                    <div class="technology-title">
+                        PHP
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 </section>
