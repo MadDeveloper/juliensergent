@@ -8,6 +8,7 @@
     background-size: cover;
     position: relative;
     z-index: 200;
+    padding: 1rem;
 
     #lang-container {
         padding-top: 10px;
@@ -72,7 +73,7 @@
     }
 
     h1#main-title {
-        font-size: 50px;
+        font-size: 40px !important;
         color: $background-color;
         font-weight: bold;
         padding-bottom: 10px;
@@ -80,18 +81,18 @@
         border-bottom: 1px solid rgba( 255, 255, 255, .1 );
 
         @media screen and(max-width: $max-width-small-screen) {
-            font-size: 30px;
+            font-size: 30px !important;
             padding-bottom: 15px;
         }
     }
 
     h2#main-subtitle {
-        font-size: 25px;
+        font-size: 25px !important;
         margin: 30px 0;
         font-weight: 100;
 
         @media screen and(max-width: $max-width-small-screen) {
-            font-size: 20px;
+            font-size: 20px !important;
         }
     }
 }

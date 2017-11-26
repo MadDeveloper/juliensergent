@@ -3,43 +3,64 @@
         <div id="user-container" class="display flex all centered direction column content migration to-none">
             <img src="/assets/images/julien-sergent.jpg" alt="" class="image profile rounded">
             <h2 id="profil-title" class="title bold">Julien Sergent</h2>
-            <h3 class="subtitle text-centered">
-                <span class="text-centered" [innerHTML]="'profile.webDeveloper' | translate"></span>
+            <h3 class="subtitle text-center">
+                <span class="text-center" [innerHTML]="'profile.webDeveloper' | translate"></span>
             </h3>
         </div>
 
-        <div class="content">
-            <section>
-                <div class="title">
-                    <span class="badge title h3 margined right"><i class="fa fa-user"></i></span>
-                    <h3 id="about-me-title" class="subtitle">{{ 'about.title' | translate }}</h3>
-                </div>
-                <!-- <p class="content horizontal small reduced-margin">{{ 'about.text' | translate }}</p> -->
-                <br>
-                <div class="display flex items-centered content horizontal small">
-                    <span class="badge inverted light margined right"><i class="fa fa-github"></i></span>
-                    <p class="reduced-margin"><a class="link inverted" href="https://github.com/MadDeveloper" target="_blank">MadDeveloper</a></p>
-                </div>
-                <div class="display flex items-centered content horizontal small">
-                    <span class="badge inverted light margined right"><i class="fa fa-linkedin"></i></span>
-                    <p class="reduced-margin"><a class="link inverted" href="https://fr.linkedin.com/in/julien-sergent" target="_blank">Julien Sergent</a></p>
-                </div>
-            </section>
-            <br>
-            <section>
-                <div class="title">
-                    <span class="badge title h3 margined right"><i class="fa fa-envelope"></i></span>
-                    <h3 class="subtitle">{{ 'contact.title' | translate }}</h3>
-                </div>
-                <div class="display flex items-centered content horizontal small">
-                    <span class="badge inverted light margined right"><i class="fa fa-map-marker"></i></span>
-                    <p class="reduced-margin">31000 Toulouse, France</p>
-                </div>
-                <div class="display flex items-centered content horizontal small">
-                    <span class="badge inverted light margined right"><i class="fa fa-envelope"></i></span>
-                    <p class="reduced-margin"><a class="link inverted" href="mailto:sergent.julien@icloud.com">sergent.julien@icloud.com</a></p>
-                </div>
-            </section>
+        <div class="content container">
+            <div class="row">
+                <section class="col-lg-12 col-6">
+                    <div class="title">
+                        <span class="badge title h3 margined right">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <h3 id="about-me-title" class="subtitle">{{ 'about.title' | translate }}</h3>
+                    </div>
+                    <!-- <p class="content horizontal small reduced-margin">{{ 'about.text' | translate }}</p> -->
+                    <br>
+                    <div class="display flex items-centered content horizontal small">
+                        <span class="badge inverted light margined right">
+                            <i class="fa fa-github"></i>
+                        </span>
+                        <p class="reduced-margin">
+                            <a class="link inverted" href="https://github.com/MadDeveloper" target="_blank">MadDeveloper</a>
+                        </p>
+                    </div>
+                    <div class="display flex items-centered content horizontal small">
+                        <span class="badge inverted light margined right">
+                            <i class="fa fa-linkedin"></i>
+                        </span>
+                        <p class="reduced-margin">
+                            <a class="link inverted" href="https://fr.linkedin.com/in/julien-sergent" target="_blank">Julien Sergent</a>
+                        </p>
+                    </div>
+                </section>
+                <section class="col-lg-12 col-6">
+                    <div class="d-lg-block d-none my-5"></div>
+                    <div class="title">
+                        <span class="badge title h3 margined right">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <h3 id="about-contact-title" class="subtitle">{{ 'contact.title' | translate }}</h3>
+                    </div>
+                    <br>
+                    <div class="display flex items-centered content horizontal small">
+                        <span class="badge inverted light margined right">
+                            <i class="fa fa-map-marker"></i>
+                        </span>
+                        <p class="reduced-margin">31000 Toulouse, France</p>
+                    </div>
+                    <div class="display flex items-centered content horizontal small">
+                        <span class="badge inverted light margined right">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <p class="reduced-margin">
+                            <a class="link inverted" href="mailto:sergent.julien@icloud.com">sergent.julien@icloud.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 </nav>

@@ -46,10 +46,6 @@ a.link {
     font-weight: bold;
 }
 
-.text-centered {
-    text-align: center;
-}
-
 .clickable:hover {
     cursor: pointer !important;
 }
@@ -57,32 +53,36 @@ a.link {
 /*
  * Headers
  */
-h1.title {
-    font-size: $h1-title-font-size;
+h1.title,
+.h1 {
+    font-size: $h1-title-font-size !important;
 }
 h1.subtitle {
-    font-size: $h1-subtitle-font-size;
+    font-size: $h1-subtitle-font-size !important;
 }
 
-h2.title {
-    font-size: $h2-title-font-size;
+h2.title,
+.h2 {
+    font-size: $h2-title-font-size !important;
 }
 h2.subtitle {
-    font-size: $h2-subtitle-font-size;
+    font-size: $h2-subtitle-font-size !important;
 }
 
-h3.title {
-    font-size: $h3-title-font-size;
+h3.title,
+.h3 {
+    font-size: $h3-title-font-size !important;
 }
 h3.subtitle {
-    font-size: $h3-subtitle-font-size;
+    font-size: $h3-subtitle-font-size !important;
 }
 
-h4.title {
-    font-size: $h4-title-font-size;
+h4.title,
+.h4 {
+    font-size: $h4-title-font-size !important;
 }
 h4.subtitle {
-    font-size: $h4-subtitle-font-size;
+    font-size: $h4-subtitle-font-size !important;
 }
 
 .title:hover {

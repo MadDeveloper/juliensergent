@@ -17,15 +17,15 @@
         "technicalEnvironment": "<strong>Technical environment</strong>",
         "fullStackWebDeveloper": {
             "title": "Web Engineer",
-            "textPart1": "Participating to the development of the new accident detection version. The build of the version requires the reconstruction of new APIs as well as to adapt some visuals.<br>For more details about Liberty Rider, you can visit <a href='https://liberty-rider.com' target='_blank'>liberty-rider.com</a>."
+            "textPart1": "Participating to the development of the new accident detection version. The build of the version requires the reconstruction of new APIs as well as to adapt some visuals.<br>For more details about Liberty Rider, you can visit <a href='https://liberty-rider.com' target='_blank' class='link default'>liberty-rider.com</a>."
         },
         "reactEngineer": {
             "title": "React Software Engineer",
-            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank'>services.airbus.com</a>."
+            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank' class='link default'>services.airbus.com</a>."
         },
         "javascriptEngineer": {
             "title": "JavaScript Software Engineer",
-            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank'>mycfmportal.com</a>."
+            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank' class='link default'>mycfmportal.com</a>."
         },
         "angular2Developer": {
             "title": "Angular developer",
@@ -52,18 +52,18 @@
         "title": "Education",
         "master": {
             "school": "IPI, Blagnac",
-            "title": "Master Degree Project Manager & Software engineer",
+            "title": "Master chef de projet ingénieurie logicielle",
             "text": "In the process of obtaining the title Master Degree Project Manager & Software engineer."
         },
         "licence": {
             "school": "SUPINFO International University, Toulouse",
-            "title": "IT development Bachelor of Science (three years technical degree)",
+            "title": "Bachelor of Science",
             "text": "Bachelor of Science in software development and computer networks."
         },
         "bac": {
             "school": "Clément Marot secondary school",
             "title": "High school diploma",
-            "text": "Scientific Baccalaureate with honors."
+            "text": "Scientific Subjects - obtained with honors."
         }
     },
     "skills": {
