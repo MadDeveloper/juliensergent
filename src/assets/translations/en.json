@@ -48,12 +48,35 @@
             "textPart2": "Built with PHP, Javascript and Ajax technology."
         }
     },
+    "personalExperiences": {
+        "title": "Personal experiences",
+        "tradingBot": {
+            "title": "Trading bot",
+            "description": "Realization of a trading robot for crypto currencies.<br>He is able to trade on Gdax and Binance. The architecture of the robot makes it capable of trading in any market. <br> It has some adaptability capabilities in the market, and a large number of configurations that can change its behavior completely.<br>The source code of the project is not made public."
+        },
+        "sniphub": {
+            "title": "SnipHub",
+            "description": "SnipHub is a collaborative platform for sharing snippets (reusable pieces of code). Reinventing the wheel often is a burden, searching the web to find an answer is often too, SnipHub was created to centralize all these recurring snippets in the life of a developer. <br> Projects available at <a href='https://sniphub.io' target='_blank' class='link default'>sniphub.io </a>"
+        },
+        "easyjs": {
+            "title": "Framework Node.js",
+            "description": "Realization of the framework easy.js, a framework fullstack for the environment Node.js, accompanied by a cli. This framework aims to provide a scalable and stable architecture for all types of backend projects based on Node.js.<br>Source code available on my GitHub."
+        },
+        "neuralNetwork": {
+            "title": "Réseau de neurones (deep learning)",
+            "description": "Integral creation of a multilayer perceptron neuron network, with an architecture and a trainer in order to be able to build a network of any size and to train it.<br>Source code available on my GitHub."
+        },
+        "others": {
+            "title": "Autres",
+            "description": "D'autres types de projets son présents sur mon GitHub : <a href='https://github.com/MadDeveloper' target='_blank' class='link default'>github.com/MadDeveloper</a>"
+        }
+    },
     "educations": {
         "title": "Education",
         "master": {
             "school": "IPI, Blagnac",
-            "title": "Master chef de projet ingénieurie logicielle",
-            "text": "In the process of obtaining the title Master Degree Project Manager & Software engineer."
+            "title": "Mastere chef de projet ingénieurie logicielle",
+            "text": "In the process of obtaining the title Mastere chef de projet ingénieurie logicielle."
         },
         "licence": {
             "school": "SUPINFO International University, Toulouse",

@@ -12,20 +12,20 @@
     "contact": {
         "title": "Contact"
     },
+    "technicalEnvironment": "<strong>Environnement Technique</strong>",
     "workExperiences": {
         "title": "Expériences professionnelles",
-        "technicalEnvironment": "<strong>Environnement Technique</strong>",
         "fullStackWebDeveloper": {
-            "title": "Ingénieur Web",
-            "textPart1": "Participation au développement de la nouvelle version de détection d'accident. La construction de la version nécessite la reconstruction de nouvelles API ainsi que d'adapter certains visuels.<br>Pour plus d'informations à propos de Liberty Rider vous pouvez visiter <a href='https://liberty-rider.com' target='_blank' class='link default'>liberty-rider.com</a>."
+            "title": "Développeur Web fullstack",
+            "textPart1": "Participation au développement de la nouvelle version de détection d'accident. La construction de la version nécessite la reconstruction de nouvelles API ainsi que l'adaptation de certains visuels.<br>Pour plus d'informations à propos de Liberty Rider vous pouvez visiter <a href='https://liberty-rider.com' target='_blank' class='link default'>liberty-rider.com</a>."
         },
         "reactEngineer": {
-            "title": "Ingénieur React",
-            "textPart1": "Developer on the project Services by Airbus.<br>My mission is to work with a team of consultants, discuss and propose the appropriate solutions for the wanted functionalities.<br>For an overview of the project, please visit <a href='https://services.airbus.com' target='_blank' class='link default'>services.airbus.com</a>."
+            "title": "Développeur React",
+            "textPart1": "Développeur sur le projet Services by Airbus.<br>Ma mission était de travailler avec une équipe de consultants, de discuter et de proposer des solutions adaptées aux fonctionnalités demandées.<br>Pour plus d'informations sur le projet vous pouvez visiter <a href='https://services.airbus.com' target='_blank' class='link default'>services.airbus.com</a>."
         },
         "javascriptEngineer": {
-            "title": "Ingénieur JavaScript",
-            "textPart1": "My mission was to maintain and add new features to MyCFM web portal, collaborate with team around the world (India, U.S., France) and provide solutions to customer requests.<br>For an overview of the project, please visit <a href='https://mycfmportal.com' target='_blank' class='link default'>mycfmportal.com</a>."
+            "title": "Développeur JavaScript",
+            "textPart1": "Ma mission était de maintenir et ajouter de nouvelles fonctionnalités au portail web MyCFM, de collaborer avec des équipes du monde entier (Inde, États-Unis, France) et de fournir des solutions aux demandes des clients.<br>Pour plus d'informations sur le projet vous pouvez visiter <a href='https://mycfmportal.com' target='_blank' class='link default'>mycfmportal.com</a>."
         },
         "angular2Developer": {
             "title": "Développeur Angular",
@@ -46,12 +46,35 @@
             "textPart1": "Conception et développement d’une plateforme web interne permettant de faciliter la gestion des candidatures."
         }
     },
+    "personalExperiences": {
+        "title": "Expériences personnelles",
+        "tradingBot": {
+            "title": "Robot de trading",
+            "description": "Réalisation d'un robot de trading pour les crypto monnaies.<br>Il est capable de trader sur Gdax et Binance. L'architecture du robot permet de le rendre capable de trader sur n'importe quel marché.<br>Il est doté de quelques capacités d'adaptabilité au cours du marché, ainsi qu'une vaste quantité de configurations pouvant changer totalement son comportement.<br>Le code source du projet n'est pas rendu publique."
+        },
+        "sniphub": {
+            "title": "SnipHub",
+            "description": "SnipHub est une plateforme collaborative de partage de snippets (bouts de code réutilisables). Réinventer souvent la roue est un fardeaux, fouiller le web pour trouver une réponse l'est souvent aussi également, SnipHub a donc été créé dans le but de centraliser tous ces snippets récurrents dans la vie d'un développeur.<br>Projets disponible à l'adresse <a href='https://sniphub.io' target='_blank' class='link default'>sniphub.io</a>"
+        },
+        "easyjs": {
+            "title": "Framework Node.js",
+            "description": "Réalisation du framework easy.js, un framework fullstack pour l'environnement Node.js, accompagné d'une cli. Ce framework a pour but d'apporter une architecture scalable et stable pour tout type de projets backend basé sur Node.js.<br>Code source disponible sur mon GitHub."
+        },
+        "neuralNetwork": {
+            "title": "Réseau de neurones (deep learning)",
+            "description": "Création intégrale d'un réseau de neurones de type perceptron multicouches, avec un architecture et un entraineur afin de pouvoir construire un réseau d'une taille quelconque et de l'entrainer.<br>Code source disponible sur mon GitHub."
+        },
+        "others": {
+            "title": "Autres",
+            "description": "Other types of projects are present on my GitHub: <a href='https://github.com/MadDeveloper' target='_blank' class='link default'>github.com/MadDeveloper</a>"
+        }
+    },
     "educations": {
         "title": "Études",
         "master": {
             "school": "IPI, Blagnac",
-            "title": "Master chef de projet ingénieurie logicielle",
-            "text": "En cours d'obtention du titre BAC+5 Master chef de projet ingénieurie logicielle."
+            "title": "Mastere chef de projet ingénierie logicielle",
+            "text": "En cours d'obtention du titre BAC+5 Mastere chef de projet ingénierie logicielle."
         },
         "licence": {
             "school": "SUPINFO International University, Toulouse",
