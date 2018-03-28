@@ -1,0 +1,6 @@
+- mettre un label (écrire, parler) sous les langues
+- Changer Ingénieur logiciel en Développeur logiciel
+- Changer Software Engineer par Software Craftsman
+- Pouvoir changer la langue depuis n'importe où
+- refaire la partie About me (en responsive aussi)
+- revoir skills et tools, plus ciblés
